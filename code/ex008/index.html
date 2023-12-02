@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação</title>
+</head>
+<body>
+    <h1>Formas de formatação</h1>
+    <hr>
+    <h2>Negrito / Destaque</h2>     
+<p>Para criar destacar uma parte do <strong>texto em negrito</strong>, é utilizado a tag &lt;STRONG&gt;.</p>
+
+    <h2>Itálico / Ênfase</h2>
+<p>Para deixar uma parte do <EM>texto em itálico</EM>, é utilizado a tag &lt;EM&gt;. </p>
+    <H2>Texto marcado</H2>
+<p>Para <mark>marcar a parte selecionada do texto</mark>, é utilizada a tag &lt;MARK&gt;. <br>
+Para mudar a cor do do do marca-texto é utilizado CSS. </p>
+
+    <h2>Texto pequeno e texto grande</h2>
+Para deixar a parte selecionada to <small>texto pequena</small> é utilziada a tag &lt;SMALL&gt;. <br>
+Agora, para deixar a parte do <big>texto grande</big>, é utilizada a tag &lt;BIG&gt;. <br>
+<strong>OBS:</strong>A tag BIG é uma tag morta e desconsiderata pela W3C, mesmo ainda estando em funcionamento. 
+    <H2>Texto deletado</H2>
+Para <del>riscar uma parte do texto</del>, é utilizado a tag &lt;del&gt;. 
+    <h2>Texto sublinhado</h2>
+<p>Para sublinhar uma parte desejada no texto, é utilziado a tag &lt;INS&gt;. <br>
+<strong>OBS:</strong>Também podemos utilizar a tag U, porém ela é uma tag que não possui semântica, apenas forma.</p>
+    <h2>Texto sobrescrito e subescrito</h2>
+<p>Para criarmos textos sob e subescritos, utilizaremos as tags &lt;sup&gt; e &lt;sub&gt;. <br>
+<strong>EX:</strong> X<sup>2</sup>+50 ---------- H<sub>2</sub>O</p>
+    <h2>Códigos</h2>
+    <p>Para exibir um código em sua página HTML, você utilziará a tag &lt;CODE&gt;. <br>
+    <strong>Exemplo:</strong> &lt;code&gt;num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'0 número {num} é ímpar')
+    else:
+        print(f'0 número {num} é ímpar')
+    print('Fim do programa')&lt;/code&gt; <br>
+    Porém, notará que o código ficará completamente bugado. Então, para que seja adicionado a quebra de linha, utilize antes de CODE a tag &lt;pre&gt;. <br>
+    <strong>E assim ficará:</strong> <br>
+    <pre>
+        <code>
+            if num % 2 == 0:
+        print(f'0 número {num} é ímpar')
+    else:
+        print(f'0 número {num} é ímpar')
+    print('Fim do programa')
+        </code>
+
+    </pre>
+    </p><hr> 
+    <H1>Outras formatações!</H1> 
+
+    <h2>Citações</h2>
+     <p>Certa vez, Washington Irving disse: <q>Há uma sacralidade nas lágrimas. Elas não são a marca da fraqueza, mas de poder, são mensageiras de sofrimento esmagador e de amor indizível.</q> <br>
+        A tag &lt;q&gt; e &lt;blockquote&gt; são utilizadas para citações, como no exemplo à cima. 
+     </p>
+    <h2>Abreviação</h2>
+     <p>Estou estudando <abbr title="HyperText marckup language">HTML</abbr> e <abbr title="Cascate Style sheet">CSS</abbr>. Estou adorando!</p>
+</body>
+</html>

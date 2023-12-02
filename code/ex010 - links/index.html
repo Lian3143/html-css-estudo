@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links externos e internos</title>
+</head>
+
+<body>
+
+    <!--COMO UTILIZAR UM LINK EXTERNO-->
+    <h1>Usando links externos </h1> 
+    <p>Para utilziar um link externo, basta utilizar a tag <strong>&lt;a href = "Insira aqui o link"&gt;</strong>. <br>
+    <strong>Ex:</strong> Aqui, aprederei a utilizar links externos. Meu exemplo será o <a href ="https://github.com/" target="_blank" rel="external">GITHUB</a></p>
+    
+    
+    <!--COMO FAZER PARA QUE UM LINK EXTERNO NÃO SOBREPONHA A SUA PÁGINA-->
+    <h2>Sobreposição de página</h2>
+
+        <p>
+            Para que sua página não seja sobreposta pelo link externo, é recomendável utilziar os parâmetros <strong>target="_blank"</strong> e <strong>rel="external"</strong> <br>
+            <strong>Código: &lt;a href="img/pagina2.html" target="_self" rel="next"&gt;PÁGINA IMAGEM DO GATO</strong>
+        </p>
+   <br>  
+
+   <!--CRIANDO UM LINK PARA UMA PÁGINA DO MESMO SITE-->
+
+        <H2>Links para uma outra página do mesmo site</H2>
+        
+            <a href="img/pagina2.html" target="_self" rel="next">PÁGINA IMAGEM DO GATO</a><br>
+            <strong>Código:</strong> &lt;a href="img/pagina2.html" target="_self" rel="next"&gt;PÁGINA IMAGEM DO GATO
+         </p>
+
+<!--COMO FAZER DOWNLOAD-->
+
+        <H1>Como fazer links para download</H1>
+        <p>
+            Para criar um link de download, faz-se assim:     
+           <br> <strong>Exemplo:</strong> &lt;a href="arquivo/boleto.pdf" download="boleto.pdf" type="application/pdf"&gt;Clique para baixar! &lt;/a&gt; <br>
+           <strong>Visualmente fica assim:</strong> <a href="arquivo/boleto.pdf" download="boleto.pdf" type="application/pdf">Clique aqui para baixar!</a>
+            
+           <!--LINKS DE DOWNLOADS UTILIZANDO LISTAS ORDENADAS!-->
+           <h2>Exemplos com listas!</h2>
+
+            <ol>
+
+                <li> <a href="arquivo/boleto.pdf" download="boleto.pdf" type="application/pdf">Boleto.pdf</a> </li>     
+                <li> <a href="arquivo/boleto.zip" download="boleto.zip" type="application/zip" >Boleto.zip</a> </li>
+
+            </ol> <br>
+            <strong>Código: <br> &lt;ol&gt; <br>
+
+                &lt;li&gt; &lt;a href="arquivo/boleto.pdf" download="boleto.pdf" type="application/pdf">Boleto.pdf&lt;/a&gt; &lt;/li&gt; <br>    
+                &lt;li&gt; &lt;a href="arquivo/boleto.zip" download="boleto.zip" type="application/zip" >Boleto.zip&lt;/a&gt; &lt;/li&gt;
+<br>
+            &lt;/ol&gt; 
+        </p>
+</body>
+</html>

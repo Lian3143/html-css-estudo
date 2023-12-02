@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Media!</title>
+</head>
+<body>
+    <h1 class="titulo">Indexando uma imagem utilizando a tag &lt;picture&gt;</h1>
+    <p>As imagens abaixo se adaptam a diversos tipos de tela e aparelhos</p>
+
+<!--Adicionando uma imagem responsiva-->
+
+    <picture> 
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="img flexivel">
+    </picture>
+
+<!--Adicionando áudio à uma pagina-->
+
+<h1>Reproduzindo áudio em HTML5</h1>
+<audio src="media/Guess I_ll Never Know.wav - TrackTribe.mp3" controls></audio>
+
+<br>
+
+<!--audio com a tag source-->
+<audio preload="metadata" controls>
+    <source src="media/Guess I_ll Never Know.wav - TrackTribe.mp3">
+    <p>Infelizmente não foi possível carregar o áudio, para baixa-lo, <a hrf="media/Guess I_ll Never Know.wav - TrackTribe.mp3">clique aqui</a></p>
+</audio>
+
+</body>
+
+</html>
