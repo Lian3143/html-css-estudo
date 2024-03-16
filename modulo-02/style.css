@@ -1,0 +1,49 @@
+/* ANOTAÇÕES IMPORTANTES!!!
+
+
+    background-color - altera a cor de fundo 
+
+    background-image:linear-gradient - usado para fazer gradiente. 
+
+    border-radius - usado para arredondamento da borda de uma box
+
+    box-shadow - cria uma sombra em algo
+
+    width: - usado para altera a largura de algo
+
+    padding - altera o preencimento de algo. principalmente box's. 
+
+    height - altera a altura. 
+
+    margin - muda a margem de algo dentro da página. 
+
+    color - altera a cor de algo dentro da página
+
+    text-align - alinha um texto
+
+    text-shadow - adiciona sombra à um texto
+
+    font-weight - define o peso da fonte (lighter, normal, bold, bolder) 
+
+    font-size - tamanho da fonte
+
+    font-family - altera a fonte do texto
+
+    font-style - estilo da fonte (italic, bold, normal...)
+
+    text-decoration - sublinhado 
+
+    font: italic normal 1em Arial, sans-serif; - Isso é chamado shorthand
+
+    height: representa a altura de um conteúdo (seja ele texto ou nao)
+
+    width: representa a largura de um conteúdo selecionado.
+
+
+/*RECOMENDAÇÕES PARA FONT-SIZE: 
+MEDIDAS ABSOLUTAS - CM, MM, IN, PX, PT, PC
+MEDIDAS RELATIVAS - EM, EX, REM, VW, VH, %
+
+Recomendação: sempre utilizar EM e PX. 
+Em equivale à 16 px. 
+16 px é o tamanho padrão de uma página WEB. 

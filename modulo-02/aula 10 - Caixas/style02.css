@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+body{
+    background-color: #161618;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 32px;
+    text-align: center;
+    color: #D5C3B9;
+    
+}
+header{
+    background-color: #3A4C56;
+    margin: 10px;
+    padding: 10px;
+    
+} 
+
+main{
+    background-color: #3A4C56;
+    margin: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: #B38764;
+    
+}
+a{
+    margin-top: 10px;
+    margin-right: 120px;
+    margin-bottom: 10px;
+    margin-left: 240px;
+    padding-right: 20px;
+    padding-left: 0px;
+
+}
+nav{
+    background-color: #11232D; 
+    box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.596);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+nav > a{
+    color: #D5C3B9;
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+
+/* ID'S */
+#assuntos{
+    color: #D5C3B9;
+
+}
+#noticia{
+    margin-bottom: 10px
+}
+#noticia2{
+    margin-bottom: 10px;
+}
+
+
+section > article{
+    background-color: #11232D;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow:1px 1px 20px 0px rgba(0, 0, 0, 0.596);
+}
+/* RODAPÉ*/
+footer{
+    background-color: black;
+    color: #D5C3B9;
+    text-align: center;
+    margin-top: 40px;
+    padding: 4px;
+}
+footer > p{
+    margin: 0px;
+}
+
+
+section > p{
+    background-color: #11232D;
+    padding-top: 1cqi;
+    padding-bottom: 10px;
+   box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.596);
+
+}
+span{
+    margin-right: 250px;
+    margin-left: 250px;
+    font-weight: bold;
+}
+span:hover{
+    color: rgb(138, 56, 56);
+    text-decoration: underline;
+}
+
+/* CLASSES */
+.texto-base{
+    margin: 1px 1px 1px 1px;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 10px;
+    color: #D5C3B9;
+}
+.escritor{
+    margin: 1px 1px 1px 1px;
+    font-weight: normal;
+    text-align: left;
+    font-size: 10px;
+    text-decoration: underline;
+    color: #D5C3B9;
+}
+
+
+section > p{
+    border-radius: 10px;
+    padding: 15px;
+    color:#D5C3B9 ;
+    
+}

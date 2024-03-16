@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+div {
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#d1:hover{
+    background-color: lightblue;
+    border-radius: 50%;
+}
+#d3:hover{
+    background-color: lightslategrey;
+    border-radius: 50%;
+}
+#d2:hover{
+    background-color: lightsteelblue;
+    border-radius: 50%;
+}
