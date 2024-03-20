@@ -140,7 +140,7 @@ article > p {
     text-indent: 2rem;
     font-size: 1rem;
 }
-
+/* PERSONALZIANDO OS TEXTOS EM DESTAQUE*/
 .txt-destaque{
     color: #115C2E;
     font-weight: bold;
@@ -158,21 +158,18 @@ article > p {
 .links:hover{
     text-decoration: underline;
 }
-
-
-
-
+/* Centralizando imagens*/
 .img-center{
     text-align: center;
 }
-
+/* editando os videos */
 .video{
     text-align: center;
     background-color: #1A5C38;
     padding: 20px;
 }
 
-
+/* EDITANDO A BOX DE CONTEÚDO EXTRA */
 .extra-content{
     background-color: #C5EBD6;
     border-radius: 10px;
