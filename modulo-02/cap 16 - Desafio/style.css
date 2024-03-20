@@ -205,6 +205,8 @@ article > p {
 .lista{
     columns: 2;
     padding-bottom: 15px;
+    list-style-type: square;
+    text-align: justify;
     
 }
 
@@ -238,4 +240,24 @@ footer > p{
 }
 .info{
     font-weight: bold;
+}
+
+.link-instagram{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.link-instagram:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.link-youtube{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.link-youtube:hover{
+    text-decoration: underline;
+    color: black;
 }
