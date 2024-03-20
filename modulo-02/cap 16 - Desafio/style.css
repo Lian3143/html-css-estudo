@@ -5,12 +5,15 @@
     src: url('fontes/idroid.otf') format('opentype'), url(fontes/idroid.otf) format('truetype');
     font-weight: normal;
     font-style: normal
+    
 }
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
 /* CONFIGURAÇÕES DE ESTILO ABAIXO  */
 
 *{ 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
+
 }
 
 /* CABEÇALHO E BARRA DE NAVEGAÇÃO (NAV) */
@@ -72,22 +75,37 @@ body{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+
+
     
 }
 main{
     margin: 0px;
-    padding: 0px;
     
 }
 
+.titulo {
+    text-shadow: 3px 4px 4px #0f3725;
+
+}
+
+/* Personalização do corpo */
 #principal{
     background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     
     margin-right: 110px;
+    margin-bottom: 20px;
     margin-left: 110px;
 
     padding-top: 1px;
+    padding-right: 50px;
+    padding-bottom: 50px;
     padding-left: 50px;
+
+    box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 13%);
+    
 
 }
 
@@ -95,6 +113,7 @@ main{
     font-family: 'idroid', sans-serif;
     color: #115C2E;
     font-size: 1.8rem;
+    text-shadow: 3px 3px 7px #0f37258f;
 }
 
 .subtitulo1{
@@ -104,6 +123,7 @@ main{
     background-image: linear-gradient(to right, #83E2B5, #ACEBC4, white);
     padding: 5px;
     border-radius: 5px;
+    text-shadow: 3px 3px 7px #0f37258f;
 
 }
 .titulo2{
@@ -113,6 +133,7 @@ main{
     background-image: linear-gradient(to right, #83E2B5, #ACEBC4, white);
     padding: 5px;
     border-radius: 5px;
+    text-shadow:3px 3px 20px #0f3725c2;
 }
 
 article > p {
@@ -138,7 +159,83 @@ article > p {
     text-decoration: underline;
 }
 
-/* PERSONALIZANDO A IMG */
 
-.img{
+
+
+.img-center{
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+    background-color: #1A5C38;
+    padding: 20px;
+}
+
+
+.extra-content{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px ;
+    padding-left: 10px;
     
+    
+}
+
+.extra-title{
+    background-color:#2FA866;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: -9px;
+    margin-bottom: 0px;
+    margin-left: -9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 3px black;
+
+    
+}
+
+.lista{
+    columns: 2;
+    padding-bottom: 15px;
+    
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.finalizacao{
+    text-indent: 20px;
+}
+
+/* RODAPÉ*/
+footer > p{
+    margin: 0px;
+    padding: 0px;
+}
+.rodape{
+    color: white;
+    text-align: center;
+    background-color: #1A5C38;
+
+    padding-top: 7px;
+    padding-right: 0px;
+    padding-bottom: 7px;
+    padding-left: 0px;
+
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom:0px;
+    margin-left: 0px;
+}
+.info{
+    font-weight: bold;
+}
